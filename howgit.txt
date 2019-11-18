@@ -5,3 +5,7 @@ git add filename.txt 把文件添加到仓库
 git commit -m "  说明语句  " 把文件提交到仓库（一次commit可以提交多个文件）
 git status 查看仓库状态
 git diff  具体修改内容
+git log 查看不同版本
+git reset --hard HEAD^
+git reset --hard HEAD~n  返回到上n个版本
+git reset --hard 1094a  返回到1094a那个版本
