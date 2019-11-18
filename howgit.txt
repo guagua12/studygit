@@ -10,3 +10,5 @@ git reset --hard HEAD^
 git reset --hard HEAD~n  返回到上n个版本
 git reset --hard 1094a  返回到1094a那个版本
 q 退出输出
+
+注意这里的版本是整个仓库的版本，会删除文件，修改全部文件
