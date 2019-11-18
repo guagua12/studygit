@@ -3,3 +3,5 @@ cd 打开目录
 git init 创建仓库
 git add filename.txt 把文件添加到仓库
 git commit -m "  说明语句  " 把文件提交到仓库（一次commit可以提交多个文件）
+git status 查看仓库状态
+git diff  具体修改内容
