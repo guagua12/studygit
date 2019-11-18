@@ -9,3 +9,4 @@ git log 查看不同版本
 git reset --hard HEAD^
 git reset --hard HEAD~n  返回到上n个版本
 git reset --hard 1094a  返回到1094a那个版本
+q 退出输出
