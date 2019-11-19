@@ -14,3 +14,14 @@ q 退出输出
 注意这里的版本是整个仓库的版本，会删除文件，修改全部文件
 
 git reflog 记录每一次命令
+
+git的逻辑 
+1. 修改文件txt  修改的是工作区
+2. git add 将修改提交到暂存区（stage或index）
+2. git commit将暂存区的修改提交到当前分支，并清空暂存区内容 所以可以一次commit提交多个add
+
+git 撤销修改
+1.  修改了txt 还没有add   直接  git  checkout -- filename
+2.当你不但改乱了工作区某个文件的内容，还添加到了暂存区时（git add），想丢弃修改，
+分两步，第一步用命令git reset HEAD <file>，就回到了场景1，第二步按场景1操作。
+git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
